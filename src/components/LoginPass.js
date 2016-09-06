@@ -21,14 +21,13 @@ export default class LoginPass extends Component {
 
          	 	<div className="row">
          	 		<div className="center">
-				      <form method="post" action="index.html">
 				        
 				        <p><input 
 				        	type="password" 
 				        	name="password" 
 				        	className="form-control"
 				        	value={this.props.password} 
-				        	placeholder="CONTRASEÑA"
+				        	placeholder="CONTRASEÑ"
 				        	onChange={this.handlePasswordChange}
 				        	/>
 				        </p>
@@ -38,7 +37,6 @@ export default class LoginPass extends Component {
 				        <button type="submit" className="btn btn-primary button-bank"> Siguiente</button>
 
 
-				      </form>
 				    </div>
 				</div>
 		    </div>
