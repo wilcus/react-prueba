@@ -4,7 +4,7 @@ import App from './App';
 import LoginPass from './components/LoginPass'
 
 import Transf1   from './components/Transf1'
-import Transferencia3 from './components/Transferencia3'
+import HeaderComponent from './components/HeaderComponent'
 
 import './index.css';
 
@@ -17,7 +17,7 @@ ReactDOM.render(
     <Route path="/login" component={LoginPass}/>
     <Route path="/transf1" component={Transf1}>
     </Route>
-    <Route path="/transferencia3" component={Transferencia3}>
+    <Route path="/headerComponent" component={HeaderComponent}>
     </Route>
   </Router>,
   document.getElementById('root')

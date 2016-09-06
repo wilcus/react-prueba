@@ -3,10 +3,10 @@ import userImage from '../userImage.png';
 import menuImage from '../menuImage.png';
 import deltaBankImage from '../deltaBankImage.png';
 
-class LoginComponent extends Component{
+class HeaderComponent extends Component{
     render(){
       return (
-        <nav className="nav-bar navbar-default navbar-fixed-top">
+        <nav className="nav-bar navbar-default clearfix">
             <div className="container header-space">
               <a href="#" className="menu-image">
                 <img src={menuImage}></img>
@@ -31,4 +31,4 @@ class LoginComponent extends Component{
 }
 }
 
-export default LoginComponent;
+export default HeaderComponent;

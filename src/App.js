@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <h2>Prueba en react</h2>
-          <Transf2/>
+          <LoginComponent/>
         </div>
       </div>
     );

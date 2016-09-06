@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logoLogin from '../login.png';
+import { Router, Route, Link, browserHistory } from 'react-router'
 
 
 export default class LoginPass extends Component {
@@ -10,12 +11,10 @@ export default class LoginPass extends Component {
 
 	render() {
 		return (
-			<div className="container">
+			<div className="container text-align-center" >
 				<div className="row">
-					<div className="center"> 
                   <div className="col-md-12">
                     <img src={logoLogin}></img>
-                  </div>
                   </div>
          	 	</div>
 
@@ -27,15 +26,14 @@ export default class LoginPass extends Component {
 				        	name="password" 
 				        	className="form-control"
 				        	value={this.props.password} 
-				        	placeholder="CONTRASEÑ"
+				        	placeholder="CONTRASEÑA"
 				        	onChange={this.handlePasswordChange}
 				        	/>
 				        </p>
-
 				        
-				        
+				        <Link to={'/transf1'}>
 				        <button type="submit" className="btn btn-primary button-bank"> Siguiente</button>
-
+				        </Link>
 
 				    </div>
 				</div>
