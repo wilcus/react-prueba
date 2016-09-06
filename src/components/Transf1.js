@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderComponent from './HeaderComponent' 
+import { Router, Route, Link, browserHistory } from 'react-router'
 
 export default class Transf1 extends Component {
 
@@ -21,7 +22,7 @@ export default class Transf1 extends Component {
 
 	render() {
 		return (
-			<div >
+			<div>
 				<HeaderComponent />
 
 				<div className="container">
@@ -66,9 +67,9 @@ export default class Transf1 extends Component {
 					        
 
 					        
-					        
-					        <button type="submit" className="btn btn-primary button-bank"> Siguiente</button>
-
+					        <Link to={'/transf2'}>
+					        	<button type="submit" className="btn btn-primary button-bank"> Siguiente</button>
+					        </Link>
 
 					    </div>
 					</div>

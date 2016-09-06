@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import '../App.css';
+import HeaderComponent from './HeaderComponent' 
+import { Router, Route, Link, browserHistory } from 'react-router'
 
 class Transf2 extends Component {
   render() {
     return (
+      <div >
+        <HeaderComponent />
+      <div class="container">
       <div className="row">
         <div className="App-header2">
           <h3>PASO 2</h3>
@@ -21,9 +26,14 @@ class Transf2 extends Component {
                 <input type="text" className="form-control" placeholder="CODIGO" id="cod"/>
               </div>
               <button type="button" className="btn btn-default">VOLVER</button>
-              <button type="button" className="btn btn-primary">SIGUIENTE</button>
+              <Link to={'/transf3'}>
+                <button type="button" className="btn btn-primary">SIGUIENTE</button>
+              </Link>
             </form>
         </div>
+      </div>
+      </div>
+
       </div>
 
     );

@@ -11,12 +11,13 @@
   height: 80px;
 }
 .App-header {
+
   height: 150px;
   padding: 20px;
   color: white;
 }
 .App-header2 {
-  height: 150px;
+  text-align: center;
   padding: 20px;
   color: white;
   background: #2e5cb8
@@ -27,6 +28,7 @@
 }
 
 .App-parraf{
+  text-align: center;
   font-family:OpenSans;
   font-size: 14px;
   font-weight: normal;
@@ -35,6 +37,7 @@
   color:#7a7a7a;
 }
 .App-textBoxHeader{
+ 
   font-family: Helvetica;
   font-size: 12px;
   font-weight: normal;
