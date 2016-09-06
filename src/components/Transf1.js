@@ -51,7 +51,7 @@ export default class Transf1 extends Component {
 						
 						<div className="form-group">
 						  	<label htmlFor="referencia">REFERENCIA</label>
-						  	<input type="text" class="form-control" id="referencia"
+						  	<input type="text" className="form-control" id="referencia"
 						  			placeholder="Ingresa una referencia"
 						  			onChange={this.handleTextReference}
 
