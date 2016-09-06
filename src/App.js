@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { render } from 'react-dom'
+import LoginComponent from './LoginComponent'
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <h2>Prueba en react</h2>
+          <LoginComponent/>
         </div>
       </div>
     );
