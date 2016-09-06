@@ -34,3 +34,23 @@
   border-radius: 3px;
   background-color: #00468b;
 }
+
+.menu-image{
+  margin-right: 30px;
+}
+
+.header-space{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.l-right{
+  float: right
+}
+
+.last-connection{
+  font-family: OpenSans;
+  font-size: 10px;
+  font-stretch: normal;
+  color: #606060;
+}
