@@ -1,21 +1,43 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-
 .App-header {
   height: 150px;
   padding: 20px;
   color: white;
 }
+.App-header2 {
+  height: 150px;
+  padding: 20px;
+  color: white;
+  background: #2e5cb8
+}
 
 .App-intro {
   font-size: large;
 }
+
+.App-parraf{
+  font-family:OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style:normal;
+  font-stretch: normal;
+  color:#7a7a7a;
+}
+.App-textBoxHeader{
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color:#191919;
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
