@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom'
-import LoginComponent from './LoginComponent'
+import LoginComponent from './components/LoginComponent'
 import './App.css';
 
 class App extends Component {
