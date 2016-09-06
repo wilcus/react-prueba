@@ -1,37 +1,46 @@
 import React, { Component } from 'react';
+import logoLogin from '../login.png';
+
 
 export default class LoginPass extends Component {
 
-
 	handlePasswordChange(e) {
-		console.log("gg");
+		console.log("handling password");
 	}
 
 	render() {
 		return (
-			<div class="login">
-		      <h1>Write your password</h1>
-		      <form method="post" action="index.html">
-		        
-		        <p><input 
-		        	type="password" 
-		        	name="password" 
-		        	value={this.props.password} 
-		        	placeholder="Password"
-		        	onChange={this.handlePasswordChange}/>
-		        </p>
+			<div className="container">
+				<div className="row">
+					<div className="center"> 
+                  <div className="col-md-12">
+                    <img src={logoLogin}></img>
+                  </div>
+                  </div>
+         	 	</div>
 
-		        <p class="remember_me">
-		          <label>
-		            <input type="checkbox" name="remember_me" id="remember_me"/>
-		            Remember me on this computer 123
-		          </label>
-		        </p>
-		        
-		        <button type="submit" className="btn btn-primary"> Get Started</button>
+         	 	<div className="row">
+         	 		<div className="center">
+				      <form method="post" action="index.html">
+				        
+				        <p><input 
+				        	type="password" 
+				        	name="password" 
+				        	className="form-control"
+				        	value={this.props.password} 
+				        	placeholder="CONTRASEÑA"
+				        	onChange={this.handlePasswordChange}
+				        	/>
+				        </p>
+
+				        
+				        
+				        <button type="submit" className="btn btn-primary button-bank"> Siguiente</button>
 
 
-		      </form>
+				      </form>
+				    </div>
+				</div>
 		    </div>
 		)
 	}
