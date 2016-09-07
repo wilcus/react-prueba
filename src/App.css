@@ -19,8 +19,15 @@
 .App-header2 {
   text-align: center;
   padding: 20px;
-  color: white;
-  background: #2e5cb8
+  color: #f8f8f8;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  font-size:18px;
+  background: #00468b;
+}
+.btn-right {
+  margin-left: 24%;
 }
 
 .App-intro {
