@@ -27,7 +27,7 @@ export default class LoginPass extends Component {
                                 <input
                                    type="password"
                                    name="password"
-                                   className="form-control input-username"
+                                   className="form-control input-username l-right"
                                    value={this.props.password}
                                    placeholder="CONTRASEÑA"
                                    onChange={this.handlePasswordChange}
