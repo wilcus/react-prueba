@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logoLogin from '../login.png';
+import logoLogin from '../images/logodelta.svg';
 
 import { Router, Route, Link, browserHistory } from 'react-router'
 
