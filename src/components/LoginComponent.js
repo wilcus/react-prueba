@@ -17,7 +17,9 @@ class LoginComponent extends Component{
                     <div className="center">
                         <form>
                           <div className="form-group">
-                            <input type="text" className="form-control" placeholder="NOMBRE DE USUARIO"/>
+                            <i className="fa fa-user icon l-left" aria-hidden="true">
+                            </i>
+                            <input type="text" className="form-control input-username" placeholder="NOMBRE DE USUARIO"/>
                           </div>
                           <Link to={'login'} ><button type="button" className="btn btn-primary button-bank">SIGUIENTE</button></Link>
                         </form>

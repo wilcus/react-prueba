@@ -20,22 +20,26 @@ export default class LoginPass extends Component {
                     </div>
                     <div className="row">
                         <div className="center">
-                    <p>
-                       <input
-                           type="password"
-                           name="password"
-                           className="form-control"
-                           value={this.props.password}
-                           placeholder="CONTRASEÑA"
-                           onChange={this.handlePasswordChange}
-                        />
-                    </p>
-                    <Link to={'/transf1'}>
-                        <button type="submit" className="btn btn-primary button-bank">Siguiente</button>
-                    </Link>
-                </div>
-			    	</div>
+                            <form>
+                              <div className="form-group">
+                                <i className="fa fa-user icon l-left" aria-hidden="true">
+                                </i>
+                                <input
+                                   type="password"
+                                   name="password"
+                                   className="form-control input-username"
+                                   value={this.props.password}
+                                   placeholder="CONTRASEÑA"
+                                   onChange={this.handlePasswordChange}
+                                />
+                              </div>
+                              <Link to={'/transf1'}>
+                                  <button type="submit" className="btn btn-primary button-bank">Siguiente</button>
+                              </Link>
+                            </form>
+			    	    </div>
 			       </div>
+                </div>
 			</div>
 		)
 	}
