@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import HeaderComponent from './HeaderComponent'
+import FooterComponent from './FooterComponent'
 
 import { Router, Route, Link, browserHistory } from 'react-router' 
 
@@ -27,7 +28,11 @@ class Transf3 extends Component {
         comisión de USD 1.75.
         </div>
       </div>
+
       </div>
+      
+      <FooterComponent />
+
       </div>
 
     );
