@@ -20,17 +20,16 @@ export default class LoginPass extends Component {
 
          	 	<div className="row">
          	 		<div className="center">
-				        
-				        <p><input 
-				        	type="password" 
-				        	name="password" 
-				        	className="form-control"
-				        	value={this.props.password} 
-				        	placeholder="CONTRASEÑA"
-				        	onChange={this.handlePasswordChange}
+				        <p>
+                            <input
+                                type="password"
+                                name="password"
+                                className="form-control"
+                                value={this.props.password}
+                                placeholder="CONTRASEÑA"
+                                onChange={this.handlePasswordChange}
 				        	/>
 				        </p>
-				        
 				        <Link to={'/transf1'}>
 				        <button type="submit" className="btn btn-primary button-bank"> Siguiente</button>
 				        </Link>
@@ -42,5 +41,3 @@ export default class LoginPass extends Component {
 	}
 }
 
-
-// <p><input type="text" name="login" value="" placeholder="Username or Email"/></p>
