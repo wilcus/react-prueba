@@ -25,8 +25,13 @@ class LoginComponent extends Component{
               </form>
             </div>
           </div>
-
-
+          <div className="row">
+            <div className="center-block">
+              Le invitamos a ingresar a nuestra página web para mantenerse actualizado en
+              todo lo referente a las medidas de seguridad básicas, que debe tomar
+              en cuenta para mantener su <span className="security-info">información segura</span>.
+            </div>
+          </div>
         </div>
         <FooterComponent />
       </div>
