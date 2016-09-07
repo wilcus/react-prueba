@@ -8,7 +8,7 @@ class Transf2 extends Component {
     return (
       <div >
         <HeaderComponent />
-      <div class="container">
+      <div className="container">
       <div className="row">
         <div className="App-header2">
           <h4>PASO 2</h4>
@@ -27,10 +27,10 @@ class Transf2 extends Component {
               </div>
               <div className="form-group">
                 <Link to={'/transf1'}>
-                  <button type="button" className="btn btn-default">VOLVER</button>
+                  <button type="button" className="btn btn-default l-left">VOLVER</button>
                 </Link>
                 <Link to={'/transf3'}>
-                <button type="button" className="btn btn-primary btn-right">SIGUIENTE</button>
+                <button type="button" className="btn btn-primary l-right">SIGUIENTE</button>
                 </Link>
               </div>
             </form>
