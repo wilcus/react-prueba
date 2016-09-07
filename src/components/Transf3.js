@@ -11,8 +11,8 @@ class Transf3 extends Component {
       <HeaderComponent />
       <div className="row">
         <div className="App-header2">
-          <h3>FIN</h3>
-          <h2>TICKET</h2>
+          <h4>FIN</h4>
+          <h3>TICKET</h3>
         </div>
         <br/>
         <div className="App-parraf">

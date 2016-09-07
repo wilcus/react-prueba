@@ -11,8 +11,8 @@ class Transf2 extends Component {
       <div class="container">
       <div className="row">
         <div className="App-header2">
-          <h3>PASO 2</h3>
-          <h2>INGRESE EL CODIGO TOKEN</h2>
+          <h4>PASO 2</h4>
+          <h3>INGRESE EL CODIGO TOKEN</h3>
         </div>
         <br/>
         <div className="App-parraf">
@@ -25,10 +25,14 @@ class Transf2 extends Component {
                 <label for="cod" className="App-textBoxHeader">CODIGO TOKEN:</label>
                 <input type="text" className="form-control" placeholder="CODIGO" id="cod"/>
               </div>
-              <button type="button" className="btn btn-default">VOLVER</button>
-              <Link to={'/transf3'}>
-                <button type="button" className="btn btn-primary">SIGUIENTE</button>
-              </Link>
+              <div className="form-group">
+                <Link to={'/transf1'}>
+                  <button type="button" className="btn btn-default">VOLVER</button>
+                </Link>
+                <Link to={'/transf3'}>
+                <button type="button" className="btn btn-primary btn-right">SIGUIENTE</button>
+                </Link>
+              </div>
             </form>
         </div>
       </div>
