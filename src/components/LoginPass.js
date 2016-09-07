@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logoLogin from '../images/logodelta.svg';
 import { Router, Route, Link, browserHistory } from 'react-router'
 
-
 export default class LoginPass extends Component {
 
   handlePasswordChange(e) {
@@ -12,12 +11,12 @@ export default class LoginPass extends Component {
   render() {
     return (
       <div className="vertical-horizontal-center">
-          <div className="container" >
-            <div className="row">
-              <div className="col-md-12">
-                <img src={logoLogin}></img>
-              </div>
+        <div className="container" >
+          <div className="row">
+            <div className="col-md-12">
+              <img src={logoLogin}></img>
             </div>
+          </div>
           <div className="row">
             <div className="center">
               <form>
@@ -29,9 +28,9 @@ export default class LoginPass extends Component {
                     onChange={this.handlePasswordChange}
                   />
                 </div>
-                  <Link to={'/transf1'}>
-                      <button type="submit" className="btn btn-primary button-bank">Siguiente</button>
-                  </Link>
+                <Link to={'/transf1'}>
+                  <button type="submit" className="btn btn-primary button-bank">Siguiente</button>
+                </Link>
               </form>
             </div>
           </div>
