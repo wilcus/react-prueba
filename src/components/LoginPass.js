@@ -11,32 +11,32 @@ export default class LoginPass extends Component {
 
 	render() {
 		return (
-			<div className="container text-align-center" >
-				<div className="row">
-                  <div className="col-md-12">
-                    <img src={logoLogin}></img>
-                  </div>
-         	 	</div>
-
-         	 	<div className="row">
-         	 		<div className="center">
-				        <p>
-                            <input
-                                type="password"
-                                name="password"
-                                className="form-control"
-                                value={this.props.password}
-                                placeholder="CONTRASEÑA"
-                                onChange={this.handlePasswordChange}
-				        	/>
-				        </p>
-				        <Link to={'/transf1'}>
-				        <button type="submit" className="btn btn-primary button-bank"> Siguiente</button>
-				        </Link>
-
-				    </div>
-				</div>
-		    </div>
+			<div className="vertical-horizontal-center">
+			    <div className="container" >
+			    	<div className="row">
+                       <div className="col-md-12">
+                         <img src={logoLogin}></img>
+                       </div>
+                    </div>
+                    <div className="row">
+                        <div className="center">
+                    <p>
+                       <input
+                           type="password"
+                           name="password"
+                           className="form-control"
+                           value={this.props.password}
+                           placeholder="CONTRASEÑA"
+                           onChange={this.handlePasswordChange}
+                        />
+                    </p>
+                    <Link to={'/transf1'}>
+                        <button type="submit" className="btn btn-primary button-bank">Siguiente</button>
+                    </Link>
+                </div>
+			    	</div>
+			       </div>
+			</div>
 		)
 	}
 }

@@ -8,11 +8,8 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Prueba en react</h2>
-          <LoginComponent/>
-        </div>
+      <div className="vertical-horizontal-center">
+        <LoginComponent/>
       </div>
     );
   }
