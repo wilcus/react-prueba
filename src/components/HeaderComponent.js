@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import userImage from '../images/userImage.png';
 import menuImage from '../images/menuImage.png';
-import deltaBankImage from '../deltaBankImage.png';
+import deltaBankImage from '../images/deltaBankImage.png';
 
 class HeaderComponent extends Component{
   render(){
