@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logoLogin from '../images/logodelta.svg';
+import FooterComponent from './FooterComponent'
 
 import { Router, Route, Link, browserHistory } from 'react-router'
 
@@ -7,6 +8,7 @@ import { Router, Route, Link, browserHistory } from 'react-router'
 class LoginComponent extends Component{
     render(){
       return (
+        <div>
           <div className="container">
               <div className="row">
                   <div className="col-md-12">
@@ -25,9 +27,13 @@ class LoginComponent extends Component{
                         </form>
                     </div>
               </div>
+
+
           </div>
+          <FooterComponent />
+        </div>
       );
-}
+    }
 }
 
 export default LoginComponent;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderComponent from './HeaderComponent' 
+import FooterComponent from './FooterComponent'
 import { Router, Route, Link, browserHistory } from 'react-router'
 
 export default class Transf1 extends Component {
@@ -74,6 +75,7 @@ export default class Transf1 extends Component {
 					    </div>
 					</div>
 			    </div>
+			    <FooterComponent />
 		    </div>
 		)
 	}

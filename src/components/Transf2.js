@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import HeaderComponent from './HeaderComponent' 
+import FooterComponent from './FooterComponent'
 import { Router, Route, Link, browserHistory } from 'react-router'
 
 class Transf2 extends Component {
@@ -38,6 +39,8 @@ class Transf2 extends Component {
       </div>
       </div>
 
+
+      <FooterComponent />
       </div>
 
     );
