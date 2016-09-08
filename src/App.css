@@ -33,8 +33,11 @@
 .App-intro {
   font-size: large;
 }
+.Transf-info{
+  padding-top: 25px;
+}
 
-.App-parraf{
+.paragraph{
   text-align: center;
   font-family:OpenSans;
   font-size: 14px;
@@ -42,17 +45,29 @@
   font-style:normal;
   font-stretch: normal;
   color:#7a7a7a;
+  padding-top: 45px
 }
-
-.App-textBoxHeader{
-  font-family: Helvetica;
-  font-size: 12px;
+.paragraph2{
+  text-align: left;
+  font-family:OpenSans;
+  font-size: 14px;
   font-weight: normal;
-  font-style: normal;
+  font-style:normal;
   font-stretch: normal;
-  color:#191919;
+  color:#7a7a7a;
+  padding-top: 25px;
+  padding-bottom: 10px
 }
-
+.paragraph3{
+  text-align: center;
+  font-family:OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style:normal;
+  font-stretch: normal;
+  color:#7a7a7a;
+  padding-top: 10px
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -89,6 +104,11 @@
 .l-left{
   float: left;
 }
+
+.l-center{
+  float: center
+}
+
 
 .last-connection{
   font-family: OpenSans;
@@ -149,4 +169,22 @@
   color: #800229;
   margin-top: 10px;
   margin-bottom: -10px;
+}
+.icon-header{
+    text-align: center;
+    border: 3px solid #00468b;
+    border-radius: 100%;
+    margin: 8px;
+    padding: 15px;
+    color: #00468b;
+    background: white;
+    height: 50px;
+    width: 50px;
+    font-size:18px;
+}
+.positionIcons{ 
+    z-index: 3;
+    position: absolute;
+    margin-left: 2%
+
 }
