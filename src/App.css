@@ -150,6 +150,9 @@
   position: absolute;
   margin-top: 37px;
   z-index: 100;
+  border-right: 1px solid #ebe9ea;
+  border-left: 1px solid #ebe9ea;
+  border-bottom: 1px solid #ebe9ea;
 }
 
 .nav-section{
