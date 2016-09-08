@@ -122,3 +122,31 @@
 .security-info{
   color: #ca003f;
 }
+
+.nav{
+  width: 249px;
+  height: 100vh;
+  background-color: white;
+  position: absolute;
+  margin-top: 40px;
+}
+
+.nav-section{
+}
+
+.nav-section--links{
+  list-style-type: square;
+}
+
+.nav-section--links>li>a{
+  margin-top: -10px;
+  color: #414141;
+}
+
+.nav-section--header{
+  font-family: OpenSans-Semibold;
+  font-size: 10px;
+  color: #800229;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import userImage from '../images/userImage.png';
 import menuImage from '../images/menuImage.png';
 import deltaBankImage from '../images/deltaBankImage.png';
+import MenuComponent from './MenuComponent';
 
 class HeaderComponent extends Component{
   render(){
@@ -25,6 +26,7 @@ class HeaderComponent extends Component{
               Última conexión: lunes 29 de Noviembre a las 15:56.
             </div>
           </div>
+          <MenuComponent/>
         </div>
       </nav>
     );
