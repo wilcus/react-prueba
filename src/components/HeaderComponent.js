@@ -43,22 +43,15 @@ const HeaderUserInformation = () => (
   </div>
 )
 
-const HeaderMenuImage = () => (
-  <a href="#" className="menu-image">
-    <img src={menuImage}></img>
-  </a>
-)
-
 class HeaderComponent extends Component{
   render(){
     return (
       <nav className="nav-bar navbar-default clearfix">
         <div className="container header-space">
-          <HeaderMenuImage />
+          <MenuComponent />
           <HeaderLogoImage />
           <HeaderUserImage />
           <HeaderUserInformation />
-          <MenuComponent/>
         </div>
       </nav>
     );
