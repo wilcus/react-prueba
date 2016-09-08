@@ -30,17 +30,23 @@ export default class Transf1 extends Component {
             <div className="center">
               <div className="form-group">
                 <label htmlFor="cuentaCredito">CUENTA DÉBITO</label>
-                <input type="text" className="form-control" id="cuentaCredito"
-                  placeholder="Selecciona una cuenta"
-                  onChange={this.handleTextAccountDebito}
-                />
+                <select className="form-control">
+                  <option>Selecciona una cuenta</option>
+                  <option>Cuenta 1</option>
+                  <option>Cuenta 2</option>
+                  <option>Cuenta 3</option>
+                  <option>Cuenta 4</option>
+                </select>
               </div>
               <div className="form-group">
                 <label htmlFor="cuentaDebito">CUENTA CRÉDITO</label>
-                <input type="text" className="form-control" id="cuentaDebito"
-                  placeholder="Selecciona una cuenta"
-                  onChange={this.handleTextAccountCredito}
-                />
+                <select className="form-control">
+                  <option>Selecciona una cuenta</option>
+                  <option>Cuenta 1</option>
+                  <option>Cuenta 2</option>
+                  <option>Cuenta 3</option>
+                  <option>Cuenta 4</option>
+                </select>
               </div>
               <div className="form-group">
                 <label htmlFor="importe">IMPORTE </label>
