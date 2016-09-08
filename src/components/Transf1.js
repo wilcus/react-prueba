@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HeaderComponent from './HeaderComponent'
 import FooterComponent from './FooterComponent'
+import IconsHeaderComponent from './IconsHeaderComponent'
 import { Router, Route, Link, browserHistory } from 'react-router'
 
 export default class Transf1 extends Component {
@@ -27,8 +28,18 @@ export default class Transf1 extends Component {
         <HeaderComponent />
         <div className="container">
           <div className="row">
+            <div className="paragraph2">
+              TRANSFERENCIAS ENTRE CUENTAS PROPIAS
+            </div>
+            <div className="App-header2">
+              <h4>PASO 1</h4>
+              <h3>INGRESE LOS DATOS DE LA TRANSFERENCIA</h3>
+                <div className="center">
+                  <IconsHeaderComponent />
+                </div>
+            </div>
             <div className="center">
-              <div className="form-group">
+              <div className="form-group Transf-info">
                 <label htmlFor="cuentaCredito">CUENTA DÉBITO</label>
                 <select className="form-control">
                   <option>Selecciona una cuenta</option>
