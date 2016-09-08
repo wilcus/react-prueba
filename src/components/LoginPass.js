@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logoLogin from '../images/logodelta.svg';
 import FooterComponent from './FooterComponent'
 import { Router, Route, Link, browserHistory } from 'react-router'
+import LoginLogoComponent from './loginComponents/LoginLogoComponent'
 
 export default class LoginPass extends Component {
 
@@ -15,9 +16,7 @@ export default class LoginPass extends Component {
         <div className="vertical-horizontal-center">
           <div className="container" >
             <div className="row">
-              <div className="col-md-12">
-                <img src={logoLogin}></img>
-              </div>
+              <LoginLogoComponent />
             </div>
             <div className="row">
               <div className="center">
