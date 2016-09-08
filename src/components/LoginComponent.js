@@ -2,6 +2,17 @@ import React, { Component } from 'react';
 import logoLogin from '../images/logodelta.svg';
 import FooterComponent from './FooterComponent'
 import { Router, Route, Link, browserHistory } from 'react-router'
+import LoginLogoComponent from './loginComponents/LoginLogoComponent'
+
+const HelpText = ({text, aditional_text}) => (
+  <div className="center-block" >
+    {text}
+    <span className="security-info">
+      {aditional_text}
+    </span>
+  </div>
+);
+
 
 class LoginComponent extends Component{
   render(){
@@ -9,9 +20,7 @@ class LoginComponent extends Component{
       <div>
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
-              <img src={logoLogin}></img>
-            </div>
+            <LoginLogoComponent />
           </div>
           <div className="row">
             <div className="center">
@@ -26,11 +35,9 @@ class LoginComponent extends Component{
             </div>
           </div>
           <div className="row">
-            <div className="center-block">
-              Le invitamos a ingresar a nuestra página web para mantenerse actualizado en
-              todo lo referente a las medidas de seguridad básicas, que debe tomar
-              en cuenta para mantener su <span className="security-info">información segura</span>.
-            </div>
+            <HelpText text="Le invitamos a ingresar a nuestra página web para mantenerse actualizado en todo lo referente a las medidas de seguridad básicas, que debe tomaren cuenta para mantener su"
+                      aditional_text="información segura"
+            />
           </div>
         </div>
         <FooterComponent />
