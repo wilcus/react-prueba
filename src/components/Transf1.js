@@ -39,7 +39,7 @@ export default class Transf1 extends Component {
                   <h5>PASO 1</h5>
                   <h4>INGRESE LOS DATOS DE LA TRANSFERENCIA</h4>
                     <div className="center icons-box">
-                      <IconsHeaderComponent />
+                      <IconsHeaderComponent color1="blue" color2="gray" color3="gray"/>
                     </div>
                 </div>
                 <div className="center transference-form">
