@@ -5,13 +5,13 @@ import deltaBankImage from '../images/deltaBankImage.png';
 import MenuComponent from './MenuComponent';
 
 const HeaderLogoImage = () => (
-  <a href="#">
+  <a href="#" className="hidden-xs">
     <img src={deltaBankImage}></img>
   </a>
 )
 
 const HeaderUserImage = () => (
-  <a href="#" className="user-image l-right">
+  <a href="#" className="user-image l-right hidden-xs">
     <img src={userImage}></img>
   </a>
 )
