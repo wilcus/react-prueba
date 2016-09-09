@@ -27,16 +27,6 @@
   background: #00468b;
 }
 
-.App-header2 {
-  text-align: center;
-  padding: 20px;
-  color: #f8f8f8;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: bold;
-  font-size:18px;
-  background: #00468b;
-}
 .btn-right {
   margin-left: 24%;
 }
@@ -190,6 +180,7 @@
 
 .nav-section--links{
   list-style-type: square;
+
 }
 
 .nav-section--links>li>a{
@@ -203,6 +194,7 @@
   color: #800229;
   margin-top: 10px;
   margin-bottom: -10px;
+  margin-left: 15%
 }
 .icon-header{
     text-align: center;
@@ -232,4 +224,8 @@
   padding-bottom: 20px
 }
 
+.nav-section--links:hover {
+    background-color: #00468b;
+    color: whitesmoke;
+}
 
