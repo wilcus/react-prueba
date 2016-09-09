@@ -83,10 +83,28 @@
   to { transform: rotate(360deg); }
 }
 
+.login-password{
+  margin-top: 20px;
+  width: 390px;
+}
+
+.login-username{
+  width: 260px;
+  padding: 10px;
+}
+
+.icons-box{
+  width: 260px;
+  padding: 10px;
+}
+.transference-form{
+  width: 260px;
+  padding: 10px;
+}
+
 .center{
-   margin: auto;
-   width: 260px;
-   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-bank{

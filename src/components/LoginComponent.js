@@ -23,7 +23,7 @@ class LoginComponent extends Component{
             <LoginLogoComponent />
           </div>
           <div className="row">
-            <div className="center">
+            <div className="login-username center">
               <form>
                 <div className="form-group">
                   <i className="fa fa-user icon l-left" aria-hidden="true">

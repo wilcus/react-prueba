@@ -38,11 +38,11 @@ export default class Transf1 extends Component {
                 <div className="App-header2">
                   <h5>PASO 1</h5>
                   <h4>INGRESE LOS DATOS DE LA TRANSFERENCIA</h4>
-                    <div className="center">
+                    <div className="center icons-box">
                       <IconsHeaderComponent />
                     </div>
                 </div>
-                <div className="center">
+                <div className="center transference-form">
                   <div className="form-group Transf-info">
                     <label htmlFor="cuentaCredito">CUENTA DÉBITO</label>
                     <select className="form-control">

@@ -21,7 +21,7 @@ class Transf2 extends Component {
                 <div className="App-header2">
                   <h5>PASO 2</h5>
                   <h4>INGRESE EL CODIGO TOKEN</h4>
-                  <div className="center">
+                  <div className="center icons-box">
                     <IconsHeaderComponent />
                   </div>
                 </div>
@@ -38,7 +38,7 @@ class Transf2 extends Component {
                   </div>
                 </div>
                 <br/><br/>
-                <div className="center">
+                <div className="center transference-form">
                   <form>
                     <div className="form-group">
                       <label for="cod" >CODIGO TOKEN:</label>

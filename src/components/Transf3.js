@@ -21,7 +21,7 @@ class Transf3 extends Component {
                 <div className="App-header2">
                   <h5>FIN</h5>
                   <h4>TICKET</h4>
-                  <div className="center">
+                  <div className="center icons-box">
                       <IconsHeaderComponent />
                   </div>
                 </div>
