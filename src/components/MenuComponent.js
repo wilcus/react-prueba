@@ -12,8 +12,10 @@ const ContentMenuComponent = () => (
       </div>
       <hr/>
       <ul className="nav-section--links">
-        <li><a href="#">Posición</a></li>
-        <li><a href="#">Estado de Cuenta</a></li>
+        <li>Posición</li>
+      </ul>
+      <ul className="nav-section--links">
+        <li>Estado de Cuenta</li>
       </ul>
     </li>
     <hr/>
@@ -23,16 +25,17 @@ const ContentMenuComponent = () => (
       </div>
       <hr/>
       <ul className="nav-section--links">
-        <li><a href="#">Entre cuentas</a></li>
-        <li><a href="#">A terceros</a></li>
+        <li>Entre cuentas</li>
+      </ul>
+      <ul className="nav-section--links">
+        <li>A terceros</li>
       </ul>
     </li>
     <hr/>
-    </ul>
+  </ul>
 )
 
 class MenuComponent extends Component{
-
   constructor(props) {
     super(props);
     this.state = {
