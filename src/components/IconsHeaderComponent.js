@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 const IconHeaderComponent = ({icon, color}) => (  
-  <i className={"fa fa-lg l-center icon-header " + icon} style={{"color":color}} aria-hidden="true"></i>
+  <i className={"fa icon-header " + icon} style={{"color":color}} aria-hidden="true"></i>
 )
 
 export default class IconsHeaderComponent extends Component{

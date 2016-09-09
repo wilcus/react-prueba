@@ -35,7 +35,7 @@ class LoginComponent extends Component{
             </div>
           </div>
           <div className="row">
-            <HelpText text="Le invitamos a ingresar a nuestra página web para mantenerse actualizado en todo lo referente a las medidas de seguridad básicas, que debe tomaren cuenta para mantener su"
+            <HelpText text="Le invitamos a ingresar a nuestra página web para mantenerse actualizado en todo lo referente a las medidas de seguridad básicas, que debe tomaren cuenta para mantener su "
                       aditional_text="información segura"
             />
           </div>

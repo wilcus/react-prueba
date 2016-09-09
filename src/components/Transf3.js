@@ -22,7 +22,7 @@ class Transf3 extends Component {
                   <h5>FIN</h5>
                   <h4>TICKET</h4>
                   <div className="center icons-box">
-                      <IconsHeaderComponent color1="red" color2="red" color3="red"/>
+                      <IconsHeaderComponent color1="#ca003f" color2="#ca003f" color3="#ca003f"/>
                   </div>
                 </div>
                 <br/>
