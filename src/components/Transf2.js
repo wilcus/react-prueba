@@ -22,7 +22,7 @@ class Transf2 extends Component {
                   <h5>PASO 2</h5>
                   <h4>INGRESE EL CODIGO TOKEN</h4>
                   <div className="center">
-                    <IconsHeaderComponent />
+                    <IconsHeaderComponent color1="red" color2="blue" color3="gray"/>
                   </div>
                 </div>
                 <div className="col-md-12">

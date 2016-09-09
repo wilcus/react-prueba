@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 
+const IconHeaderComponent = ({icon, color}) => (  
+  <i className={"fa fa-lg l-center icon-header " + icon} style={{"color":color}} aria-hidden="true"></i>
+)
+
 export default class IconsHeaderComponent extends Component{
   render(){
     return (
-       	<div className="text-align-center positionIcons">
-            <i className="fa fa-file-text fa-lg l-center icon-header" aria-hidden="true"></i>
-            <i className="fa fa-unlock-alt fa-lg l-center icon-header" aria-hidden="true"></i>
-            <i className="fa fa-check fa-lg l-center icon-header" aria-hidden="true"></i>
-        </div>
+      <div className="text-align-center positionIcons">
+        <IconHeaderComponent icon="fa-file-text" color={this.props.color1}/>
+        <IconHeaderComponent icon="fa-unlock-alt" color={this.props.color2}/>
+        <IconHeaderComponent icon="fa-check" color={this.props.color3}/>
+      </div>
     );
   }
 }
+
