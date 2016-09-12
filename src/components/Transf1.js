@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import HeaderComponent from './HeaderComponent'
 import FooterComponent from './FooterComponent'
 import IconsHeaderComponent from './IconsHeaderComponent'
+import NextButtonComponent from './NextButtonComponent'
 import { Router, Route, Link, browserHistory } from 'react-router'
 
 export default class Transf1 extends Component {
@@ -70,9 +71,7 @@ export default class Transf1 extends Component {
                         onChange={this.handleTextReference}
                       />
                     </div>
-                    <Link to={'/transf2'}>
-                      <button type="submit" className="btn btn-primary button-bank"> Siguiente</button>
-                    </Link>
+                    <NextButtonComponent link="transf2" class="btn-next-transf l-right"/>
                   </div>
                 </div>
               </div>
