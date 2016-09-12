@@ -36,6 +36,13 @@ export default class Transf1 extends Component {
                 </div>
 
                 <div className="internal">
+                  <div className="App-header2">
+                    <h5>PASO 1</h5>
+                    <h4>INGRESE LOS DATOS DE LA TRANSFERENCIA</h4>
+                    <div className="center icons-box">
+                      <IconsHeaderComponent color1="#00468b" color2="#a8a8a8" color3="#a8a8a8"/>
+                    </div>
+                  </div>
                   <div className="center transference-form">
                     <div className="form-group Transf-info">
                       <label htmlFor="cuentaCredito">CUENTA DÉBITO</label>
