@@ -14,28 +14,26 @@ export default class LoginPass extends Component {
   render() {
     return (
       <div>
-        <div className="vertical-horizontal-center">
-          <div className="container" >
-            <div className="row">
-              <LoginLogoComponent />
-            </div>
-            <div className="row">
-              <div className="login-password center">
-                <img src={userImage} className="l-left" alt=""/>
-                <form className="l-right">
-                  <div className="form-group">
-                    <i className="fa fa-user icon l-left" aria-hidden="true"></i>
-                    <input
-                      type="password" name="password" className="form-control input-username"
-                      value={this.props.password} placeholder="CONTRASEÑA"
-                      onChange={this.handlePasswordChange}
-                    />
-                  </div>
-                  <Link to={'/transf1'}>
-                    <button type="submit" className="btn btn-primary button-bank">Siguiente</button>
-                  </Link>
-                </form>
-              </div>
+        <div className="container" >
+          <div className="row">
+            <LoginLogoComponent />
+          </div>
+          <div className="row">
+            <div className="login-password center">
+              <img src={userImage} className="l-left" alt=""/>
+              <form className="l-right">
+                <div className="form-group">
+                  <i className="fa fa-user icon l-left" aria-hidden="true"></i>
+                  <input
+                    type="password" name="password" className="form-control input-username"
+                    value={this.props.password} placeholder="CONTRASEÑA"
+                    onChange={this.handlePasswordChange}
+                  />
+                </div>
+                <Link to={'/transf1'}>
+                  <button type="submit" className="btn btn-primary button-bank">Siguiente</button>
+                </Link>
+              </form>
             </div>
           </div>
         </div>

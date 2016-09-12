@@ -23,21 +23,25 @@ class LoginComponent extends Component{
             <LoginLogoComponent />
           </div>
           <div className="row">
-            <div className="login-username center">
-              <form>
-                <div className="form-group">
-                  <i className="fa fa-user icon l-left" aria-hidden="true">
-                  </i>
-                  <input type="text" className="form-control input-username l-right" placeholder="NOMBRE DE USUARIO"/>
-                </div>
-                <Link to={'login'} ><button type="button" className="btn btn-primary button-bank">SIGUIENTE</button></Link>
-              </form>
+            <div className="col-md-12">
+              <div className="login-username center">
+                <form>
+                  <div className="form-group">
+                    <i className="fa fa-user icon l-left" aria-hidden="true">
+                    </i>
+                    <input type="text" className="form-control input-username l-right" placeholder="NOMBRE DE USUARIO"/>
+                  </div>
+                  <Link to={'login'} ><button type="button" className="btn btn-primary button-bank">SIGUIENTE</button></Link>
+                </form>
+              </div>
             </div>
           </div>
           <div className="row">
-            <HelpText text="Le invitamos a ingresar a nuestra página web para mantenerse actualizado en todo lo referente a las medidas de seguridad básicas, que debe tomaren cuenta para mantener su "
-                      aditional_text="información segura"
-            />
+            <div className="col-md-12">
+              <HelpText text="Le invitamos a ingresar a nuestra página web para mantenerse actualizado en todo lo referente a las medidas de seguridad básicas, que debe tomaren cuenta para mantener su "
+                        aditional_text="información segura"
+              />
+            </div>
           </div>
         </div>
         <FooterComponent />

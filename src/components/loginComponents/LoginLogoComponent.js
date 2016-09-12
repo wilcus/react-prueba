@@ -3,7 +3,7 @@ import logoLogin from '../../images/logodelta.svg';
 
 const LoginLogoComponent = ({text, aditional_text}) => (
   <div className="col-md-12">
-    <img src={logoLogin}></img>
+    <img src={logoLogin} className="center"></img>
   </div>
 );
 
