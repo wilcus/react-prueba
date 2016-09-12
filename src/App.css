@@ -229,7 +229,7 @@ footer{
 }
 .internal{
   background-color: #ffffff;
-  border:solid 2px whitesmoke;
+  border:solid 1px #ebe9ea;
   position: relative;
   z-index: 1;
 }
