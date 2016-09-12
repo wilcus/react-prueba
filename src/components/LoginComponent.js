@@ -29,7 +29,7 @@ class LoginComponent extends Component{
                 <div className="login-username center">
                   <form>
                     <div className="form-group login-border clearfix">
-                      <i className="fa fa-user icon l-left" aria-hidden="true">
+                      <i className="fa fa-user l-left fa-2x" aria-hidden="true">
                       </i>
                       <input type="text" className="input-username l-right" placeholder="NOMBRE DE USUARIO"/>
                     </div>
