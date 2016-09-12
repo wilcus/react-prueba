@@ -184,6 +184,7 @@
 .input-username{
   width: 215px;
   border: none;
+  outline: none;
   margin-top: 3px;
 }
 
