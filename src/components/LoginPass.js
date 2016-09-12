@@ -24,10 +24,10 @@ export default class LoginPass extends Component {
               <div className="login-password center">
                 <img src={userImage} className="l-left" alt=""/>
                 <form className="l-right">
-                  <div className="form-group">
+                  <div className="form-group login-border clearfix">
                     <i className="fa fa-lock icon l-left" aria-hidden="true"></i>
                     <input
-                      type="password" name="password" className="form-control input-username"
+                      type="password" name="password" className="input-username"
                       value={this.props.password} placeholder="CONTRASEÑA"
                       onChange={this.handlePasswordChange}
                     />

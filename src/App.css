@@ -183,7 +183,10 @@
 
 .input-username{
   width: 215px;
+  border: none;
+  margin-top: 3px;
 }
+
 .footer > footer {
   position: static;
 }
@@ -269,4 +272,9 @@ footer{
 .nav-section--links:hover {
     background-color: #00468b;
     color: whitesmoke;
+}
+
+.login-border{
+  border-bottom: 1px solid #00468b;
+  padding-bottom: 15px;
 }
