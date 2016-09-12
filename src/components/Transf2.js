@@ -3,6 +3,7 @@ import '../App.css';
 import HeaderComponent from './HeaderComponent'
 import FooterComponent from './FooterComponent'
 import IconsHeaderComponent from './IconsHeaderComponent'
+import NextButtonComponent from './NextButtonComponent'
 import { Router, Route, Link, browserHistory } from 'react-router'
 
 class Transf2 extends Component {
@@ -49,12 +50,8 @@ class Transf2 extends Component {
                       <input type="text" className="form-control" placeholder="ingresa el código" id="cod"/>
                       <br/>
                       <div className="buttons">
-                        <Link to={'/transf1'}>
-                          <button type="button" className="btn btn-default l-left">VOLVER</button>
-                        </Link>
-                        <Link to={'/transf3'}>
-                          <button type="button" className="btn btn-primary l-right">SIGUIENTE</button>
-                        </Link>
+                        <NextButtonComponent link="transf1" class="btn-prev-transf l-left" text="VOLVER" />
+                        <NextButtonComponent link="transf3" class="btn-next-transf l-right" />
                       </div>
                     </div>
                   </form>

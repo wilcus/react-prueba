@@ -4,6 +4,7 @@ import userImage from '../images/dog.svg';
 import FooterComponent from './FooterComponent'
 import { Router, Route, Link, browserHistory } from 'react-router'
 import LoginLogoComponent from './loginComponents/LoginLogoComponent'
+import NextButtonComponent from './NextButtonComponent'
 
 export default class LoginPass extends Component {
 
@@ -24,16 +25,14 @@ export default class LoginPass extends Component {
                 <img src={userImage} className="l-left" alt=""/>
                 <form className="l-right">
                   <div className="form-group">
-                    <i className="fa fa-user icon l-left" aria-hidden="true"></i>
+                    <i className="fa fa-lock icon l-left" aria-hidden="true"></i>
                     <input
                       type="password" name="password" className="form-control input-username"
                       value={this.props.password} placeholder="CONTRASEÑA"
                       onChange={this.handlePasswordChange}
                     />
                   </div>
-                  <Link to={'/transf1'}>
-                    <button type="submit" className="btn btn-primary button-bank">Siguiente</button>
-                  </Link>
+                  <NextButtonComponent link="transf1" class="button-bank" />
                 </form>
               </div>
             </div>
