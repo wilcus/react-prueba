@@ -27,18 +27,21 @@ class Transf3 extends Component {
                 </div>
                 <br/>
 
-                <div className="col-md-12">
-                  <div className="col-md-2">
-                  </div>
-                  <div className="col-md-8">
-
-                    <div className="paragraph">
-                      La transferencia fue realizada con exito el día 10 de Setiembre del 2016 a las 09:23.
-                      La cuenta fue la 22345563-4 y la cuenta destino la 234566-67, se transfirieron USD 25 con una
-                      comisión de USD 1.75.
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="row">
+                      <div className="col-md-2">
+                      </div>
+                      <div className="col-md-8">
+                        <div className="paragraph">
+                          La transferencia fue realizada con exito el día 10 de Setiembre del 2016 a las 09:23.
+                          La cuenta fue la 22345563-4 y la cuenta destino la 234566-67, se transfirieron USD 25 con una
+                          comisión de USD 1.75.
+                        </div>
+                      </div>
+                      <div className="col-md-2">
+                      </div>
                     </div>
-                  </div>
-                  <div className="col-md-2">
                   </div>
                 </div>
 

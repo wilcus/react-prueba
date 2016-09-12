@@ -25,16 +25,20 @@ class Transf2 extends Component {
                     <IconsHeaderComponent color1="#ca003f" color2="#00468b" color3="#a8a8a8"/>
                   </div>
                 </div>
-                <div className="col-md-12">
-                  <div className="col-md-4">
-                  </div>
-                  <div className="col-md-4">
-                    <div className="paragraph">
-                      Genera un código mediante el dispositivo,
-                      luego ingresalo en la casilla que se muestra más abajo:
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="row">
+                      <div className="col-md-4">
+                      </div>
+                      <div className="col-md-4">
+                        <div className="paragraph">
+                          Genera un código mediante el dispositivo,
+                          luego ingresalo en la casilla que se muestra más abajo:
+                        </div>
+                      </div>
+                      <div className="col-md-4">
+                      </div>
                     </div>
-                  </div>
-                  <div className="col-md-4">
                   </div>
                 </div>
                 <br/><br/>
