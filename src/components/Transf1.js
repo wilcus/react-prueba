@@ -3,7 +3,6 @@ import HeaderComponent from './HeaderComponent'
 import FooterComponent from './FooterComponent'
 import IconsHeaderComponent from './IconsHeaderComponent'
 import NextButtonComponent from './NextButtonComponent'
-import { Router, Route, Link, browserHistory } from 'react-router'
 
 export default class Transf1 extends Component {
 

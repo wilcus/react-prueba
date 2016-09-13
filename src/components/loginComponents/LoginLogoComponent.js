@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logoLogin from '../../images/logodelta.svg';
 
 const LoginLogoComponent = ({text, aditional_text}) => (

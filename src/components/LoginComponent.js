@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logoLogin from '../images/logodelta.svg';
 import FooterComponent from './FooterComponent'
-import { Router, Route, Link, browserHistory } from 'react-router'
 import LoginLogoComponent from './loginComponents/LoginLogoComponent'
 import NextButtonComponent from './NextButtonComponent'
 

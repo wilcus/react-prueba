@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory } from 'react-router'
+import { Link } from 'react-router'
 
 class NextButtonComponent extends Component {
 
@@ -10,7 +10,7 @@ class NextButtonComponent extends Component {
 		    <button type="button" className={this.props.class}>{text}</button>
 		  </Link>
 	  )
-	}	
+	}
 }
 
 export default NextButtonComponent;

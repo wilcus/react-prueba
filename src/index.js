@@ -7,7 +7,7 @@ import Transf2 from './components/Transf2'
 import Transf3 from './components/Transf3'
 import HeaderComponent from './components/HeaderComponent'
 import './index.css';
-import { Router, Route, Link, browserHistory } from 'react-router'
+import { Router, Route, browserHistory } from 'react-router'
 
 ReactDOM.render(
   <Router history={browserHistory}>

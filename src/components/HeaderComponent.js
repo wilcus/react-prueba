@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import userImage from '../images/userImage.png';
-import menuImage from '../images/menuImage.png';
 import deltaBankImage from '../images/deltaBankImage.png';
 import MenuComponent from './MenuComponent';
 
@@ -18,10 +17,10 @@ const HeaderUserImage = () => (
 
 class LastConnection extends Component{
   render() {
-    let today = new Date();    
+    let today = new Date();
     let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
     let text_lastconnection = today.toLocaleDateString('es-ES', options) ;
-    
+
     return (
       <div className="last-connection">
         Ultima conexión: <br/> {text_lastconnection}
@@ -39,7 +38,7 @@ const UserName = ({text}) => (
 const HeaderUserInformation = () => (
   <div className="l-right">
     <UserName text="Eugenia Rodriguez" />
-    <LastConnection /> 
+    <LastConnection />
   </div>
 )
 
