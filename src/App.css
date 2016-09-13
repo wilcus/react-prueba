@@ -278,3 +278,8 @@ footer{
   border-bottom: 1px solid #00468b;
   padding-bottom: 15px;
 }
+
+.icon{
+  margin-right: 0;
+  margin-left: 0;
+}

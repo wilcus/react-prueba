@@ -4,7 +4,6 @@ import HeaderComponent from './HeaderComponent'
 import FooterComponent from './FooterComponent'
 import IconsHeaderComponent from './IconsHeaderComponent'
 import NextButtonComponent from './NextButtonComponent'
-import { Router, Route, Link, browserHistory } from 'react-router'
 
 class Transf2 extends Component {
   render() {

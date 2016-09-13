@@ -3,7 +3,6 @@ import '../App.css';
 import HeaderComponent from './HeaderComponent'
 import FooterComponent from './FooterComponent'
 import IconsHeaderComponent from './IconsHeaderComponent'
-import { Router, Route, Link, browserHistory } from 'react-router'
 
 class Transf3 extends Component {
   render() {
@@ -16,7 +15,7 @@ class Transf3 extends Component {
             <div className="col-md-12">
               <div className="paragraph2">
                 TRANSFERENCIAS ENTRE CUENTAS PROPIAS
-              </div>    
+              </div>
               <div className="internal">
                 <div className="App-header2">
                   <h5>FIN</h5>
