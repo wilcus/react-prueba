@@ -5,7 +5,7 @@ var borderStyle = (color)=>{
 }
 
 var lineBetweenIconsStyle = (color)=>{
-  return {"color": color, "position": "relative", "top": "-16px"};
+  return {"color": color, "position": "relative", "top": "-16px", "font-weight": "normal"};
 }
 
 const IconHeaderComponent = ({icon, color}) => (
